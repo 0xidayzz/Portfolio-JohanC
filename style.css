@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+body {
     font-family: "Roboto";
-    border: 1px red dotted;
+    padding: 60px 0px 0px 0px;
+        z-index:0;
 }
 
 .name{
@@ -11,4 +12,30 @@
     margin-right: 320px;
 }
 
+.row-content {
+        margin: 0px auto;
+        padding: 15px 0px 15px 0px;
+        border-bottom: 1px ridge lightskyblue ;
+        min-height: 400px; 
+    }
+.navbar-dark {
+        background-color:#241b18;
+        color: purple;
+        padding:10px;
+    }
+    
+.nav-link,.navbar-brand {
+        color: purple !important;
+    }
+.nav-link:hover{
+        color: lightskyblue !important;
+    }
+.navbar-dark .fa-bars{
+        color: purple;
+    
+    }
+
+.loginB {
+    padding: 60px, 30px, 60px, 300px ;
+}    
 
